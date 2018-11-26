@@ -1,0 +1,255 @@
+.pane-content{
+    width:1400px;
+    height:800px;
+    padding-bottom: 120px;
+    padding-top: 0;
+    margin-left: 70px;
+}
+.content-one{
+    background-color: #f0f6f6;
+    width:680px;
+    height:890px;
+    display: inline-block;
+}
+.content-one-headline {
+    width: 675px;
+    height: 298px;
+    background-color: #f0f6f6;
+    text-align: center;
+    position: relative;
+}
+.content-one-div{
+    padding-top:100px;
+}
+.content-one-a a{
+    color: #0070c9;
+    margin-left: 1em;
+    margin-right: 0.4em;
+    display: inline-block;
+    margin-top: .8em;
+    text-decoration: none;
+    font-size: 18px;
+}.content-one-a a:hover{
+    text-decoration: underline;
+ }
+.content-one-a i{
+    color: #0070c9;
+    margin-left: 0.4em;
+    margin-right: 0.4em;
+    display: inline-block;
+    margin-top: .8em;
+}
+.content-one-img{
+    margin-top:50px;
+}
+.content-two{
+    margin-left:10px;
+}
+.pane-bands{
+    width:1370px;
+    height:500px;
+    margin-left:70px;
+    margin-top:300px;
+    background: #fafafa;
+    position: relative;
+}
+.pane-bands-img{
+    height:100%;
+    width:775px;
+    display: inline-block;
+}
+.pane-bands-words{
+    width:580px;
+    height:149px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+    right:65px;
+    top:165px;
+}
+.pane-bands-words span{
+    margin: 0 auto;
+    display: block;
+    padding-left: 0.4em;
+    font-size: 42px;
+    line-height: 1.08365;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.buystrip-infro{
+    width:1226px;
+    height:249px;
+    max-width: 1206px;
+    margin: calc(85px - 50px) auto 78px;
+    padding: 0;
+}
+.buy-content{
+    width:602px;
+    height:229px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    display: inline-block;
+    float: left;
+}
+.buy-words{
+    margin-top:10px;
+}
+.buy-content-a{
+    margin-top:10px;
+}
+.pane-content{
+    width:1380px;
+    height:502px;
+    margin-left:70px;
+    position: relative;
+}
+.pane-block-text-one{
+    position: absolute;
+    left:100px;
+    top:80px;
+    width:510px;
+    height:156px;
+    text-align: center;
+    padding: 40px 0;
+}
+.pane-block-text-one h3{
+    margin: 0 auto;
+    max-width: 30rem;
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.47059;
+    font-weight: 600;
+}
+.pane-block-i{
+    width:510px;
+    height:86px;
+    text-align: center;
+    position: absolute;
+    left:100px;
+    top:300px;
+}
+.pane-block-i i{
+    cursor: pointer;
+}
+.pane-content-img{
+    position: absolute;
+    left:200px;
+}
+.pane-block-text-two{
+    width:560px;
+    height:250px;
+    padding-left: 2em;
+    position: absolute;
+    left:750px;
+    top:100px;
+}
+.pane-block-text-two p{
+    font-size: 21px;
+    padding:25px 0 20px 40px;
+}
+.pane-block-text-two h3{
+    margin: 0 auto;
+    max-width: 30rem;
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.47059;
+    font-weight: 600;
+}
+.pane-block-text-two div{
+    margin-left:26px;
+}
+.block-text-two-i i{
+    cursor: pointer;
+}
+.pane-content-three{
+    background: #fafafa;
+    height:430px;
+}
+.pane-block-text-three{
+    width:412px;
+    height:97px;
+    padding-left: 2em;
+    position: absolute;
+    left:750px;
+    top:220px;
+    text-align: center;
+}
+.pane-block-text-three h3{
+    margin: 0 auto;
+    max-width: 17.64706rem;
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.47059;
+    font-weight: 600;
+}
+.cross-hot-words{
+    width:1380px;
+    height:81px;
+    text-align: center;
+    margin-top:150px;
+}
+.cross-hot-words h2{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 22px;
+    font-size: 55px;
+}
+.pane-content-four{
+    background-color: black;
+    margin-top:-50px;
+    position: relative;
+}
+.pane-content-four img{
+    position: absolute;
+    left:200px;
+    top:110px;
+}
+.pane-block-text-four{
+    width:500px;
+    height:120px;
+    padding-left: 2em;
+    position: absolute;
+    left:700px;
+    top:220px;
+    text-align: center;
+}
+.pane-block-text-four h3{
+    color:white;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.47059;
+    font-weight: 600;
+}
+.block-text-a{
+    color:  #66bbff;
+    pointer-events: all;
+}
+.pane-content-five{
+    height:499px;
+    width:1380px;
+    padding: 50px 0 0 0;
+}
+.pane-block-text-five{
+    width:600px;
+    height:190px;
+    padding-left: 2em;
+    position: absolute;
+    top:200px;
+    text-align: center;
+}
+.pane-block-text-five h3{
+    margin: 0 auto;
+    max-width: 370px;
+    color: #fff;
+    font-size: 40px;
+    line-height: 1.47059;
+    font-weight: 600;
+}
+.block-text-five-p{
+    text-align: center;
+    color:white;
+}
+.block-text-five-p a{
+    color:white;
+}

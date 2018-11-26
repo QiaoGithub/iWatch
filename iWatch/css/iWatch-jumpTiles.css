@@ -1,0 +1,77 @@
+.jump-tiles{
+    width:1400px;
+    height:1380px;
+    margin-left: 70px;
+    max-width: 1440px;
+}
+.jump-list{
+    width:1400px;
+    height:1380px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.jump-item{
+    width:680px;
+    height:660px;
+    border-bottom: 15px solid white;
+    border-right: 15px solid white;
+    float: left;
+    cursor: pointer;
+    transition: all .2s;
+}
+.jump-item:nth-child(1){
+    background: url('../img/adv-iWatch-one.png');
+}
+.jump-item:nth-child(2){
+    background: url('../img/adv-iWatch-two.png');
+}
+.jump-item:nth-child(3){
+    background: url('../img/adv-iWatch-three.png');
+}
+.jump-item:nth-child(4){
+    background: url('../img/adv-iWatch-four.png');
+}
+.jump-item:nth-child(1):hover{
+    background: url('../img/adv-iWatch-onesss.png') 0 1px;
+}
+.jump-item:nth-child(2):hover{
+    background: url('../img/adv-iWatch-twos.png');
+}
+.jump-item:nth-child(3):hover{
+    background: url('../img/adv-iWatch-threes.png');
+}
+.jump-item:nth-child(4):hover{
+    background: url('../img/adv-iWatch-fours.png') 0px 1px;
+}
+.headline-jump{
+    max-width: 360px;
+    color: #fff;
+    text-align: left;
+    padding-left: 15%;
+    font-size: 50px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.062em;
+    margin-top:200px;
+}
+.jump-item a{
+    display: inline-block;
+    color: #fff;
+    justify-self: start;
+    pointer-events: all;
+    margin-top: 32px;
+    font-size: 24px;
+    max-width: 80%;
+    margin-left:100px;
+    text-decoration: none;
+}
+.jump-item a:hover{
+    text-decoration: underline;
+}
+.jump-item .jump-item-a{
+    margin-left:20px;
+    display: inline-block;
+    width:20px;
+    height:32px;
+}

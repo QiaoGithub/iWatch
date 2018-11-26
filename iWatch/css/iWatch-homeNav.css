@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.adv-top{
+    position: relative;
+    height:85px;
+}
+.adv-wrapper{
+    width:1519px;
+    height:40px;
+    position: absolute;
+    z-index: 9999;
+    background: #444;
+    line-height: 1;
+    right: 0;
+}
+.adv-wrapper-text{
+    width:976px;
+    height:40px;
+    color: #a8a8aa;
+    font-size: 12px;
+    display: block;
+    line-height: 40px;
+    overflow: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-align: right;
+    max-width: 976px;
+    margin: 0 auto;
+}
+.nav-global{
+    width:1519px;
+    height:44px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    min-width: 1024px;
+    max-height: 44px;
+    background: rgba(0,0,0,0.8);
+    font-size: 17px;
+}
+.global-list{
+    list-style: none;
+    width:1000px;
+    height:100%;
+    position: absolute;
+    left:170px;
+}
+.global-item{
+    float: left;
+    margin-left:85px;
+    color:white;
+    line-height: 40px;
+    font-size: 14px;
+}
+.global-item:hover{
+    color:slategray;
+    cursor: pointer;
+}
+.item-watch{
+    color:slategray;
+}
+.global-item i{
+    opacity: .65;
+}
+#item-li{
+    width:44px;
+    height:44px;
+}
+#item-li:hover{
+    background: url('../img/apple-logos.png') no-repeat 8px 6px;
+}
+.item-img{
+    background: url('../img/apple-logo.png') no-repeat;
+}
+.nav-wrapper{
+    width:1519px;
+    height:134px;
+    text-align: center;
+}
+.wrapper-list{
+    list-style: none;
+    width:1000px;
+    height:100%;
+    margin-left:350px;
+}
+.wrapper-item{
+    width:80px;
+    height:85px;
+    float: left;
+    margin-left:10px;
+    margin-top:30px;
+    text-align: center;
+    position: relative;
+}
+.wrapper-item a{
+    display: inline-block;
+    width:60px;
+    height:25px;
+    text-decoration: none;
+    font-size: 8px;
+    color:black;
+    position: absolute;
+    left:12px;
+    top:65px;
+}
+.wrapper-item a:hover{
+    color:#0070c9;
+}
+.pic-big-iWatch{
+    width:1519px;
+    height:948px;
+    text-align: center;
+    background-color: #fafafa;
+}
+.pic-big-iWatch img{
+    cursor: pointer;
+}
+.big-iWatch{
+    width:1519px;
+    height:160px;
+    padding: 150px 0 160px 0;
+    text-align: center;
+}
+.big-iWatch-p{
+    width:100%;
+    height:30px;
+    text-align: center;
+    color:#0070c9;
+    margin-top:10px;
+}
+.big-iWatch-p a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#0070c9;
+}
+.big-iWatch-p a:nth-child(1){
+    margin-left:30px;
+}
+.big-iWatch-p a:nth-last-child(2){
+    margin-left:40px;
+}
+.big-iWatch-p a:hover{
+    text-decoration: underline;
+}
+.big-iWatch-p i{
+    font-size: 20px;
+    margin-left:10px;
+}
